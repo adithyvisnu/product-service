@@ -7,3 +7,8 @@ build:
 .PHONY: clean
 clean:
 	@ /$(CURDIR)/scripts/clean.sh
+
+
+.PHONY: run
+run:
+	@ /$(CURDIR)/scripts/run.sh
